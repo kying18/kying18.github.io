@@ -4141,7 +4141,7 @@ textarea{
     font-size:11px
 }
 .template-example{
-    margin-bottom:30px
+    margin-bottom:30px;
 }
 .template-example .template-title-example{
     font-weight:400;
@@ -4155,6 +4155,39 @@ textarea{
 .template-example .table>tbody>tr>td,.template-example .table>tbody>tr>th,.template-example .table>tfoot>tr>td,.template-example .table>tfoot>tr>th,.template-example .table>thead>tr>td,.template-example .table>thead>tr>th{
     padding:0 15px
 }
+
+.resume-photo{
+    max-height: 100px;
+    max-width: 70%;
+}
+
+.resume-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.resume-row {
+    padding: 50px 20px;
+    /* min-height: 100px; */
+    align-items: center;
+}
+.resume-row-label {
+    padding: 20px 0;
+}
+
+@media (max-width:991px){
+    .resume-item {
+        text-align: center;
+    }
+}
+
+.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
 .list-icons{
     list-style:none;
     margin:0;
