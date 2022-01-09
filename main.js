@@ -450,14 +450,14 @@
             }
 
             function r() {
-                var t = document.querySelector(".hero-full-container"),
-                    e = window.innerWidth / 5,
-                    n = window.innerHeight / 5;
-                t.addEventListener("mousemove", function(i) {
-                    var o = i.clientX / e,
-                        r = i.clientY / n;
-                    t.style.transform = "translate3d(-" + 1.5 * o + "px, -" + 1.5 * r + "px, 0)"
-                })
+                // var t = document.querySelector(".hero-full-container"),
+                //     e = window.innerWidth / 5,
+                //     n = window.innerHeight / 5;
+                // t.addEventListener("mousemove", function(i) {
+                //     var o = i.clientX / e,
+                //         r = i.clientY / n;
+                //     t.style.transform = "translate3d(-" + 1.5 * o + "px, -" + 1.5 * r + "px, 0)"
+                // })
             }
             n.d(e, "c", function() {
                 return i
