@@ -4157,8 +4157,8 @@ textarea{
 }
 
 .resume-photo{
-    max-height: 100px;
-    max-width: 70%;
+    max-height: 100px !important;
+    max-width: 70% !important;
 }
 
 .resume-logo {
