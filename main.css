@@ -3786,7 +3786,7 @@ button.close{
     bottom:0
 }
 body{
-    padding:10px;
+    /* padding:10px; */
     min-height:100vh
 }
 body.minimal{
