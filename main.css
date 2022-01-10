@@ -328,6 +328,11 @@ hr{
 .h1,h1{
     font-size:70px
 }
+@media (max-width:767px){
+    .h1,h1{
+        font-size:60px
+    }
+}
 .h2,h2{
     font-size:30px
 }
@@ -3844,7 +3849,7 @@ body.minimal{
 .background-image-container{
     background-size:cover;
     background-repeat:no-repeat;
-    background-position:center;
+    background-position: 65%;
 }
 .btn{
     -webkit-transition:all .2s linear;
