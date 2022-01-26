@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="Kylie Ying portfolio Website" name="description">
+    <meta name="google" content="notranslate" />
+    <meta content="Kylie Ying" name="author">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png"> -->
+    <link href="/img/favicon.ico" rel="icon">
+
+    <title>{{page.title}}</title>
+
+    <link href="/css/default.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="minimal">
+    <header>
+        <nav class="navbar  navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="./index.html" title="">01 : Home</a></li>
+                        <li><a href="./resume.html" title="">02 : Resume</a></li>
+                        <!-- <li><a href="./about.html" title="">03 : About me</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+          <li><a href="./components.html" title="">05 : Components</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    {{content}}
+
+    <footer class="footer-container text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>Inspired by dank memes and big dreams :')</p>
+                </div>
+                <div class="col-xs-12">
+                    <p>© Kylie Ying 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            type();
+            movingBackgroundImage();
+        });
+    </script>
+
+
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+
+</html>
