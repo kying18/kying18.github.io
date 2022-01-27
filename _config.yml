@@ -3,3 +3,6 @@ name: Kylie Ying
 baseurl: https://kylieying.com
 # baseurl: ""
 permalink: /blog/:title
+
+# Google Analytics
+google_analytics: G-TEEDE1GB8S
