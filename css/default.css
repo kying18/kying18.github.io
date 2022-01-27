@@ -4201,6 +4201,9 @@ textarea{
     .resume-item {
         text-align: center;
     }
+    .template-example {
+        margin-left: 0;
+    }
 }
 
 .row > [class*='col-'] {
@@ -4219,6 +4222,14 @@ textarea{
     margin-right:5px
 }
 
+.posts ul {
+    padding: 1.5rem;
+}
+@media (min-width:992px) {
+    .posts ul {
+        padding: 0 37px;
+    }
+}
 .posts li {
     align-items: center;
     display: flex;
@@ -4226,9 +4237,9 @@ textarea{
     margin-bottom: 0.5rem;
 }
 .posts li a, .posts li div, .projects li a {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
     font-weight: bold;
 }
 .posts li time, .projects li time {
@@ -4357,6 +4368,7 @@ iframe {
   display: flex;
   align-items: center; 
   justify-content: center;
+  text-align:center;
   padding-bottom: 20px;
   width: 100%;
   font-size:12px;
