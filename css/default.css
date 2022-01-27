@@ -4218,7 +4218,6 @@ textarea{
     float:left;
     margin-right:5px
 }
-/*# sourceMappingURL=main.70a66962.map*/
 
 .posts li {
     align-items: center;
@@ -4240,6 +4239,7 @@ textarea{
 
 .posts {
     padding:0;
+    /* margin: 0; */
 }
 .post ul {
     margin: 0px;

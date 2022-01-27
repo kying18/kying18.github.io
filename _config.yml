@@ -1,2 +1,5 @@
 name: Kylie Ying
-permalink: /:title/
+# permalink: /:title/
+baseurl: https://kylieying.com
+# baseurl: ""
+permalink: /blog/:title
