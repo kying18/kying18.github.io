@@ -3792,14 +3792,14 @@ button.close{
 }
 body{
     /* padding:10px; */
-    min-height:100vh
+    min-height:90vh
 }
 body.minimal{
     border:none;
     padding:0
 }
 .hero-full-container{
-    height:100vh
+    height:90vh
 }
 .hero-full-container h1{
     font-family:Roboto,Helvetica,Arial,sans-serif;
@@ -3808,8 +3808,8 @@ body.minimal{
 .hero-full-container .hero-full-wrapper{
     display:table;
     width:100%;
-    height:100vh;
-    min-height:100vh
+    height:90vh;
+    min-height:90vh
 }
 .hero-full-container .hero-full-wrapper .text-content{
     vertical-align:middle;
